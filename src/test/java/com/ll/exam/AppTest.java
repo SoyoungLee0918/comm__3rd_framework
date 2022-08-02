@@ -3,9 +3,19 @@ package com.ll.exam;
 import com.ll.exam.article.controller.ArticleController;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class AppTest {
+    @Test
+    public void ioc__Controller들을_스캔하여_수집() {
+        List<String> names = Container.getControllerNames();
+
+        assertThat(names).contains("home");
+        assertThat(names).contains("article");
+    }
+
     @Test
     public void ioc__articleController__싱글톤() {
         ArticleController articleController1 = Container.getArticleController();

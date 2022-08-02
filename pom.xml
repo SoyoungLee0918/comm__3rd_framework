@@ -5,11 +5,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-<<<<<<< HEAD
-    <artifactId>exam__3rd_framework</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-=======
     <artifactId>comm__3rd</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -62,7 +57,6 @@
 
     </dependencies>
 
->>>>>>> 7d27c45e4107ae382359861309eab04e5ae7ab1f
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

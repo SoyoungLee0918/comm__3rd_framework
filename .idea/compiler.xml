@@ -2,11 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+<<<<<<< HEAD
+=======
+      <profile default="true" name="Default" enabled="true" />
+>>>>>>> 7d27c45e4107ae382359861309eab04e5ae7ab1f
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="exam__3rd_framework" />
+=======
+        <module name="comm__3rd" />
+>>>>>>> 7d27c45e4107ae382359861309eab04e5ae7ab1f
       </profile>
     </annotationProcessing>
   </component>

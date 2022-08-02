@@ -7,6 +7,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class AppTest {
     @Test
+    public void ioc__articleController__싱글톤() {
+        ArticleController articleController1 = Container.getArticleController();
+        ArticleController articleController2 = Container.getArticleController();
+
+        assertThat(articleController2).isEqualTo(articleController1);
+    }
+
+    @Test
     public void ioc__articleController() {
         ArticleController articleController = Container.getArticleController();
 
